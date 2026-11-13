@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%" role="img" aria-label="شعار ميراش للياقة البدنية للسيدات">
+  <defs>
+    <!-- Soft Rose Dancer Gradient -->
+    <linearGradient id="dancerRose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4EC"/>
+      <stop offset="50%" stop-color="#F48FB1"/>
+      <stop offset="100%" stop-color="#E91E63"/>
+    </linearGradient>
+
+    <!-- White / Cream Highlight Gradient -->
+    <linearGradient id="dancerHighlight" x1="0%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFE4EC"/>
+    </linearGradient>
+
+    <!-- Dynamic Flow Ribbon Gradient -->
+    <linearGradient id="ribbonFlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF80AB"/>
+      <stop offset="50%" stop-color="#EC407A"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+
+    <!-- Drop Shadow -->
+    <filter id="logoGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#D81B60" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#logoGlow)">
+    <!-- Inner Dark Espresso Circle WITHOUT ANY OUTER BORDER OR FRAME -->
+    <circle cx="120" cy="120" r="114" fill="#24151F"/>
+
+    <!-- Crescent Aura / Dynamic Flow Ribbon -->
+    <path d="M 120 36 C 68 36 44 80 52 126 C 58 149 72 170 92 182 C 78 166 68 144 68 121 C 68 83 90 52 126 46 C 146 43 168 48 182 61 C 167 45 145 36 120 36 Z" 
+          fill="url(#ribbonFlow)" opacity="0.92"/>
+
+    <!-- The Dancing Woman Figure Silhouette -->
+    <!-- Head -->
+    <circle cx="118" cy="70" r="9" fill="url(#dancerRose)"/>
+    <!-- Stylized hair bun / flow -->
+    <path d="M 111 66 C 105 64 100 68 99 73 C 104 74 108 73 111 70 Z" fill="url(#dancerRose)"/>
+
+    <!-- Dynamic Extended Right Arm -->
+    <path d="M 124 92 
+             C 137 90 152 87 164 78 
+             C 168 75 169 72 165 74 
+             C 153 81 139 85 126 89 Z" 
+          fill="url(#dancerRose)"/>
+
+    <!-- Graceful Arched Left Arm Above Head -->
+    <path d="M 114 84 
+             C 106 81 97 83 93 89 
+             C 89 95 93 100 97 97 
+             C 101 94 104 89 112 87 Z" 
+          fill="url(#dancerRose)"/>
+
+    <!-- Main Torso Curve (Rose) -->
+    <path d="M 116 82 
+             C 111 85 105 91 104 100 
+             C 103 108 107 115 113 121 
+             C 117 125 127 134 137 148 
+             C 141 153 144 158 148 165 
+             C 146 157 142 148 136 140 
+             C 130 133 124 127 121 122 
+             C 119 119 118 115 119 111 
+             C 120 105 124 99 128 94
+             Z" 
+          fill="url(#dancerRose)"/>
+
+    <!-- Inner Highlight S-Curve (White / Cream Contrast as in Original) -->
+    <path d="M 115 90 
+             C 110 98 111 108 117 118 
+             C 123 127 131 137 140 148 
+             C 136 142 128 131 122 122 
+             C 118 114 116 106 119 96 Z" 
+          fill="url(#dancerHighlight)" opacity="0.95"/>
+
+    <!-- Supporting Leg / Grounding Flow -->
+    <path d="M 117 121 
+             C 112 129 108 141 106 155 
+             C 105 159 105 163 107 164 
+             C 108 162 110 155 112 146 
+             C 115 136 119 127 122 121 Z" 
+          fill="url(#dancerRose)" opacity="0.9"/>
+
+    <!-- Clean, Proper Arabic Typography: ميراش (Right-to-Left) -->
+    <text x="120" y="186" 
+          font-family="'Baloo Bhaijaan 2', 'Tajawal', sans-serif" 
+          font-size="34" 
+          font-weight="800" 
+          text-anchor="middle" 
+          fill="#FFD1DF"
+          direction="rtl">
+      ميراش
+    </text>
+
+    <!-- English Typography: MIRASH (Bold Italicized) -->
+    <text x="120" y="208" 
+          font-family="'Tajawal', 'Segoe UI', Arial, sans-serif" 
+          font-size="14.5" 
+          font-weight="900" 
+          font-style="italic" 
+          letter-spacing="5" 
+          text-anchor="middle" 
+          fill="#FFB8D0">
+      MIRASH
+    </text>
+  </g>
+</svg>
